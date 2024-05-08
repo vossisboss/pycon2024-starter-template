@@ -13,7 +13,7 @@ class CustomImage(AbstractImage):
 
     admin_form_fields = Image.admin_form_fields + (
         # Then add the field names here to make them appear in the form:
-        # 'caption',
+        'default_alt_text',
     )
 
 
