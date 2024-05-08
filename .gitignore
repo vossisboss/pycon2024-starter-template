@@ -131,3 +131,5 @@ dmypy.json
 # Wagtail Media
 
 /media
+
+.DS_Store
