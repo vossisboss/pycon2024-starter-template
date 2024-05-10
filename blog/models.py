@@ -13,6 +13,8 @@ class BlogIndexPage(Page):
         FieldPanel('intro')
     ]
 
+    subpage_types = ['blog.BlogPage']
+
 class BlogPage(Page):
     date = models.DateField("Post date")
     intro = models.CharField(max_length=250)
