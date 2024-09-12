@@ -9,6 +9,11 @@ html {
 }
 
 body {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
   min-height: 100vh;
   max-width: 800px;
   margin: 0 auto;
